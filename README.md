@@ -1,2 +1,2 @@
 # Python_Learning
-Codes of python
+I am sharing some conceptual question data analysis in python using pandas
