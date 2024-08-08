@@ -4,7 +4,6 @@ Let the content of the file data_file.txt be
 honda 1948
 mercedes 1926
 ford 1903
-Source Code
 
 with open("data_file.txt") as f:
     content_list = f.readlines()
@@ -15,7 +14,6 @@ print(content_list)
 # remove new line characters
 content_list = [x.strip() for x in content_list]
 print(content_list)
-Run Code
 
 ==>Output:
 ['honda 1948\n', 'mercedes 1926\n', 'ford 1903']
